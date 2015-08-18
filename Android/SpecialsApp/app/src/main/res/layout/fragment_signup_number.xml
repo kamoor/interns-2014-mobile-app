@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Fragments.BlankFragment">
+
+    <TextView
+        android:id="@+id/flow_title"
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:paddingTop="95dp"
+        android:text="Enter Your Mobile Number"
+        android:textColor="#00559A"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/flow_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flow_title"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:paddingTop="25dp"
+        android:text="Dealers will use this number to contact\n you if you show interest in a vehicle."
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/flow_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flow_info"
+        android:layout_margin="25dp"
+        android:background="@drawable/rounded_input"
+        android:fontFamily="sans-serif-light"
+        android:hint="(555) 555-5555"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:textCursorDrawable="@null" />
+
+    <Button
+        android:id="@+id/flow_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flow_number"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="sans-serif-light"
+        android:text="Continue"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/flow_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Sign In"
+        android:textColor="#00559A" />
+
+</RelativeLayout>

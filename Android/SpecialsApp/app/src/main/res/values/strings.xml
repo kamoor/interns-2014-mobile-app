@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpecialsApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_home">Cobalt Specials</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="spinnerPrompt1">Select Category</string>
+    <string name="location">Current Location</string>
+    <string name="make_prompt">Make</string>
+    <string name="model_prompt">Model</string>
+    <string name="type_prompt">Type</string>
+    <string name="year_prompt">Year</string>
+    <string name="price_prompt">Maximum Price</string>
+    <string name="strikethrough"><strike>$16,000</strike></string>
+
+    <string-array name="none">
+        <item>No Vehicles</item>
+    </string-array>
+
+    <string name="results">No Matches Found</string>
+
+    <string-array name="list_items">
+        <item>Dealers Near You</item>
+        <item>Specials Near You</item>
+        <item>Search</item>
+    </string-array>
+    <string-array name="location_array">
+        <item>Current Location</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="search_array">
+        <item>Dealer</item>
+        <item>Make</item>
+        <item>Model</item>
+        <item>Year</item>
+        <item>Type</item>
+    </string-array>
+    <string-array name="makes">
+        <item>Any</item>
+        <item>Acura</item>
+        <item>Aston Martin</item>
+        <item>Audi</item>
+        <item>Bentley</item>
+        <item>BMW</item>
+        <item>Buick</item>
+        <item>Cadillac</item>
+        <item>Chevrolet</item>
+        <item>Chrysler</item>
+        <item>Dodge</item>
+        <item>Ferrari</item>
+        <item>Fiat</item>
+        <item>Ford</item>
+        <item>GMC</item>
+        <item>Honda</item>
+        <item>Hyundai</item>
+        <item>Infiniti</item>
+        <item>Jaguar</item>
+        <item>Jeep</item>
+        <item>Kia</item>
+        <item>Lamborghini</item>
+        <item>Land Rover</item>
+        <item>Lexus</item>
+        <item>Lincoln</item>
+        <item>Lotus</item>
+        <item>Maserati</item>
+        <item>Mazda</item>
+        <item>McLaren</item>
+        <item>Mercedes-Benz</item>
+        <item>MINI</item>
+        <item>Mitsubishi</item>
+        <item>Nissan</item>
+        <item>Pontiac</item>
+        <item>Porsche</item>
+        <item>RAM</item>
+        <item>Rolls-Royce</item>
+        <item>Scion</item>
+        <item>Smart</item>
+        <item>Subaru</item>
+        <item>Tesla</item>
+        <item>Toyota</item>
+        <item>Volkswagen</item>
+        <item>Volvo</item>
+    </string-array>
+    <string-array name="Ford">
+        <item>Escape</item>
+        <item>Focus</item>
+    </string-array>
+    <string-array name="Cadillac">
+        <item>Any</item>
+        <item>ATS</item>
+        <item>Catera</item>
+        <item>CTS</item>
+        <item>DeVille</item>
+        <item>DTS</item>
+        <item>Eldorado</item>
+        <item>ELR</item>
+        <item>Escalade</item>
+        <item>Escalade ESV</item>
+        <item>Escalade EXT</item>
+        <item>Escalade Hybrid</item>
+        <item>Seville</item>
+        <item>SRX</item>
+        <item>STS</item>
+        <item>XLR</item>
+        <item>XTS</item>
+    </string-array>
+    <string-array name="AstonMartin">
+        <item>Any</item>
+        <item>DB AR1 Zagato</item>
+        <item>DB7</item>
+        <item>DB7 Vantage</item>
+        <item>DB9</item>
+        <item>DBS</item>
+        <item>Rapide</item>
+        <item>Rapide S</item>
+        <item>V12 Vanquish</item>
+        <item>V12 Vantage</item>
+        <item>V8 Vantage</item>
+        <item>V8 Vantage S</item>
+        <item>Vanquish</item>
+        <item>Vantage</item>
+        <item>Virage</item>
+    </string-array>
+    <string-array name="Chevrolet">
+        <item>Any</item>
+        <item>2500</item>
+        <item>3500</item>
+        <item>Astro</item>
+        <item>Avalanche</item>
+        <item>Aveo</item>
+        <item>Blazer</item>
+        <item>Camaro</item>
+        <item>Captiva Sport</item>
+        <item>Cavalier</item>
+        <item>Classic</item>
+        <item>Cobalt</item>
+        <item>Colorado</item>
+        <item>Corvette</item>
+        <item>Corvette Stingray</item>
+        <item>Cruze</item>
+        <item>Equinox</item>
+        <item>Express</item>
+        <item>Van</item>
+        <item>HHR</item>
+        <item>Impala</item>
+        <item>Impala Limited</item>
+        <item>Lumina</item>
+        <item>Malibu</item>
+        <item>Malibu Classic</item>
+        <item>Malibu Hybrid</item>
+        <item>Malibu Maxx</item>
+        <item>Metro</item>
+        <item>Monte Carlo</item>
+        <item>Pickup</item>
+        <item>Prizm</item>
+        <item>S-10</item>
+        <item>Silverado</item>
+        <item>Sonic</item>
+        <item>Spark</item>
+        <item>Spark EV</item>
+        <item>SS</item>
+        <item>SSR</item>
+        <item>Suburban</item>
+        <item>Tahoe</item>
+        <item>Tahoe Hybrid</item>
+        <item>Tracker</item>
+        <item>TrailBlazer</item>
+        <item>TrailBlazer EXT</item>
+        <item>Traverse</item>
+        <item>Uplander</item>
+        <item>Venture</item>
+        <item>Volt</item>
+    </string-array>
+    <string-array name="GMC">
+        <item>Any</item>
+        <item>Acadia</item>
+        <item>Canyon</item>
+        <item>Envoy</item>
+        <item>Envoy XL</item>
+        <item>Envoy XUV</item>
+        <item>Jimmy</item>
+        <item>Safari</item>
+        <item>Savana</item>
+        <item>Sierra</item>
+        <item>Sonoma</item>
+        <item>Terrain</item>
+        <item>Yukon</item>
+        <item>Yukon Hybrid</item>
+        <item>Yukon XL</item>
+    </string-array>
+    <string-array name="Buick">
+        <item>Any</item>
+        <item>Century</item>
+        <item>Enclave</item>
+        <item>Encore</item>
+        <item>LaCrosse</item>
+        <item>LeSabre</item>
+        <item>Lucerne</item>
+        <item>Park Avenue</item>
+        <item>Rainier</item>
+        <item>Regal</item>
+        <item>Rendezvous</item>
+        <item>Terraza</item>
+        <item>Verano</item>
+    </string-array>
+    <string-array name="Lamborghini">
+        <item>Any</item>
+        <item>Aventador</item>
+        <item>Diablo</item>
+        <item>Gallardo</item>
+        <item>Murcielago</item>
+    </string-array>
+    <string-array name="MercedesBenz">
+        <item>Any</item>
+        <item>C-Class</item>
+        <item>CL-Class</item>
+        <item>CLA-Class</item>
+        <item>CLK-Class</item>
+        <item>CLS-Class</item>
+        <item>E-Class</item>
+        <item>G-Class</item>
+        <item>GL-Class</item>
+        <item>GLK-Class</item>
+        <item>M-Class</item>
+        <item>R-Class</item>
+        <item>S-Class</item>
+        <item>SL-Class</item>
+        <item>SLK-Class</item>
+        <item>SLR McLaren</item>
+        <item>SLS AMG</item>
+        <item>SLS AMG Black Series</item>
+        <item>Sprinter</item>
+    </string-array>
+    <string-array name="MINI">
+        <item>Any</item>
+        <item>Clubman</item>
+        <item>Convertible</item>
+        <item>Cooper</item>
+        <item>Cooper S</item>
+        <item>Countryman</item>
+        <item>Coupe</item>
+        <item>Hardtop</item>
+        <item>Paceman</item>
+        <item>Roadster</item>
+    </string-array>
+    <string-array name="any">
+        <item>Any</item>
+    </string-array>
+    <string-array name="priceRange">
+        <item>None</item>
+        <item>$1,000</item>
+        <item>$2,000</item>
+        <item>$3,000</item>
+        <item>$4,000</item>
+        <item>$5,000</item>
+        <item>$6,000</item>
+        <item>$7,000</item>
+        <item>$8,000</item>
+        <item>$9,000</item>
+        <item>$10,000</item>
+        <item>$11,000</item>
+        <item>$12,000</item>
+        <item>$13,000</item>
+        <item>$14,000</item>
+        <item>$15,000</item>
+        <item>$16,000</item>
+        <item>$17,000</item>
+        <item>$18,000</item>
+        <item>$19,000</item>
+        <item>$20,000</item>
+        <item>$21,000</item>
+        <item>$22,000</item>
+        <item>$23,000</item>
+        <item>$24,000</item>
+        <item>$25,000</item>
+        <item>$30,000</item>
+        <item>$35,000</item>
+        <item>$40,000</item>
+        <item>$45,000</item>
+        <item>$50,000</item>
+        <item>$55,000</item>
+        <item>$60,000</item>
+        <item>$65,000</item>
+        <item>$70,000</item>
+        <item>$75,000</item>
+        <item>$80,000</item>
+        <item>$85,000</item>
+        <item>$90,000</item>
+        <item>$95,000</item>
+        <item>$100,000</item>
+    </string-array>
+    <string-array name="type">
+        <item>Any</item>
+        <item>New</item>
+        <item>Used</item>
+    </string-array>
+    <string-array name="Pontiac">
+        <item>Any</item>
+        <item>1000</item>
+        <item>6000</item>
+        <item>Aztek</item>
+        <item>Bonneville</item>
+        <item>Catalina</item>
+        <item>Fiero</item>
+        <item>Firebird</item>
+        <item>G3</item>
+        <item>G5</item>
+        <item>G6</item>
+        <item>G8</item>
+        <item>Grand Am</item>
+        <item>Grand Prix</item>
+        <item>GTO</item>
+    </string-array>
+    <string-array name="All" />
+
+    <string name="title_activity_specials">SpecialsActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_vehicle_results">VehicleResultsActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_dealer_results">DealerResultsActivity</string>
+    <string name="title_activity_dealer_detail">DealerDetail</string>
+
+</resources>
