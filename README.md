@@ -1,5 +1,9 @@
-Cobalt Specials
-==============
+
+THIS IS AN OPEN SOURCE VERSION OF INTERN PROJECT - 2014
+Written by:
+Austin Browne
+Brady Mahar
+
 
 1. Clone the project.
 
